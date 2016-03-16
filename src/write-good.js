@@ -13,7 +13,7 @@ function reporter(context, options = {}) {
   return {
     [Syntax.Str](node) {
       if (helper.isChildNode(node, [Syntax.BlockQuote])) {
-        return null;
+        return;
       }
 
       const text = getSource(node);

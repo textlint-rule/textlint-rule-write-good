@@ -6,7 +6,9 @@
   "scripts": {
     "build": "babel src -d lib --source-maps",
     "prepublish": "npm run --if-present build",
-    "test": "mocha"
+    "test": "npm-run-all lint mocha",
+    "lint": "eslint src test",
+    "mocha": "mocha"
   },
   "keywords": [
     "textlint",
@@ -20,6 +22,7 @@
   "homepage": "https://github.com/nodaguti/textlint-rule-write-good",
   "repository": "nodaguti/textlint-rule-write-good",
   "dependencies": {
+    "npm-run-all": "^1.5.3",
     "textlint-rule-helper": "^1.1.5",
     "write-good": "^0.9.1"
   },
