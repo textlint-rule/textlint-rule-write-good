@@ -10,6 +10,10 @@
     "lint": "eslint src test",
     "mocha": "mocha"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "keywords": [
     "textlint",
     "rule",
