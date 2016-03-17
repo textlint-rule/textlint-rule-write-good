@@ -33,3 +33,20 @@ You can disable each types of checks via `.textlintrc`.
 ```
 
 For available check types, see [btford/write-good#checks](https://github.com/btford/write-good#checks)
+
+## Tests
+```
+npm test
+```
+
+## Contribution
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## License
+
+MIT License (http://nodaguti.mit-license.org/)
