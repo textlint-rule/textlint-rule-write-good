@@ -1,5 +1,5 @@
-import rule from '../src/write-good';
 import TextlintTester from 'textlint-tester';
+import rule from '../src/write-good';
 
 const tester = new TextlintTester();
 
