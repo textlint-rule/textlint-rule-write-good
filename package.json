@@ -19,9 +19,9 @@
   "keywords": ["textlint", "rule", "english", "proofreading"],
   "author": "nodaguti",
   "license": "MIT",
-  "bugs": "https://github.com/nodaguti/textlint-rule-write-good/issues",
-  "homepage": "https://github.com/nodaguti/textlint-rule-write-good",
-  "repository": "nodaguti/textlint-rule-write-good",
+  "bugs": "https://github.com/textlint-rule/textlint-rule-write-good/issues",
+  "homepage": "https://github.com/textlint-rule/textlint-rule-write-good",
+  "repository": "textlint-rule/textlint-rule-write-good",
   "dependencies": {
     "textlint-rule-helper": "^2.0.0",
     "write-good": "^0.11.0"
