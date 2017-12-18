@@ -1,11 +1,12 @@
 # textlint-rule-write-good
 
+[![npm](https://img.shields.io/npm/v/textlint-rule-write-good.svg)](https://www.npmjs.com/package/textlint-rule-write-good)
 [![Build Status](https://travis-ci.org/nodaguti/textlint-rule-write-good.svg?branch=master)](https://travis-ci.org/nodaguti/textlint-rule-write-good)
 [![Dependency Status](https://david-dm.org/nodaguti/textlint-rule-write-good.svg)](https://david-dm.org/nodaguti/textlint-rule-write-good)
 [![devDependency Status](https://david-dm.org/nodaguti/textlint-rule-write-good/dev-status.svg)](https://david-dm.org/nodaguti/textlint-rule-write-good#info=devDependencies)
 
 [textlint](https://github.com/textlint/textlint) rule
-to check your English styles with [btford/write-good](https://github.com/btford/write-good).
+to check your English writing styles with [btford/write-good](https://github.com/btford/write-good).
 
 ## Installation
 
@@ -22,7 +23,9 @@ $ textlint --rule textlint-rule-write-good some-text-to-proofread.txt
 
 ## Options
 
-You can disable each types of checks via `.textlintrc`.
+All checks except for [`eprime`](https://github.com/btford/write-good#eprime) are enabled by default.
+
+You can disable each type of checks by passing `false` in `.textlintrc`.
 
 ```
 {
@@ -35,7 +38,7 @@ You can disable each types of checks via `.textlintrc`.
 }
 ```
 
-For available check types, see [btford/write-good#checks](https://github.com/btford/write-good#checks)
+For available checks, please refer to [btford/write-good#checks](https://github.com/btford/write-good#checks).
 
 ## Tests
 
