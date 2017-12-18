@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-write-good",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "textlint rule to check your English style with write good",
   "engines": {
     "node": ">=6"
