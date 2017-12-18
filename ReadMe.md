@@ -8,17 +8,20 @@
 to check your English styles with [btford/write-good](https://github.com/btford/write-good).
 
 ## Installation
+
 ```
 $ npm install textlint-rule-write-good
 ```
 
 ## Usage
+
 ```
 $ npm install textlint textlint-rule-write-good
 $ textlint --rule textlint-rule-write-good some-text-to-proofread.txt
 ```
 
 ## Options
+
 You can disable each types of checks via `.textlintrc`.
 
 ```
@@ -35,6 +38,7 @@ You can disable each types of checks via `.textlintrc`.
 For available check types, see [btford/write-good#checks](https://github.com/btford/write-good#checks)
 
 ## Tests
+
 ```
 npm test
 ```
