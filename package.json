@@ -24,7 +24,7 @@
   "repository": "textlint-rule/textlint-rule-write-good",
   "dependencies": {
     "textlint-rule-helper": "^2.0.0",
-    "write-good": "^0.11.0"
+    "write-good": "^1.0.7"
   },
   "lint-staged": {
     "*.js": ["prettier", "git add"],
