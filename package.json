@@ -7,43 +7,50 @@
   },
   "main": "lib/write-good.js",
   "scripts": {
-    "build": "babel src -d lib --source-maps",
+    "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build",
-    "test": "npm-run-all lint mocha",
+    "test": "npm-run-all lint test:unit",
     "lint": "eslint --fix src test",
-    "mocha": "mocha",
+    "test:unit": "textlint-scripts test",
     "precommit": "lint-staged",
-    "prettier": "prettier --write \"**/*.{js,json,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepare": "git config --local core.hooksPath .githooks"
   },
-  "files": ["lib", "src"],
-  "keywords": ["textlint", "rule", "english", "proofreading"],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "keywords": [
+    "textlint",
+    "rule",
+    "english",
+    "proofreading"
+  ],
   "author": "nodaguti",
   "license": "MIT",
   "bugs": "https://github.com/textlint-rule/textlint-rule-write-good/issues",
   "homepage": "https://github.com/textlint-rule/textlint-rule-write-good",
   "repository": "textlint-rule/textlint-rule-write-good",
   "dependencies": {
-    "textlint-rule-helper": "^2.0.0",
+    "textlint-rule-helper": "^2.2.0",
     "write-good": "^0.11.0"
   },
   "lint-staged": {
-    "*.js": ["prettier", "git add"],
-    "*.json": ["prettier", "git add"]
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^6.0.0",
-    "mocha": "^4.0.1",
-    "npm-run-all": "^4.1.2",
-    "prettier": "^1.9.2",
-    "textlint": "^9.1.1",
-    "textlint-tester": "^3.0.3"
+    "lint-staged": "^11.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.1",
+    "textlint-scripts": "^12.0.1",
+    "textlint-tester": "^12.0.0"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "none"
   }
 }
