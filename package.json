@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "textlint rule to check your English style with write good",
   "engines": {
-    "node": ">=6"
+    "node": ">=12"
   },
   "main": "lib/write-good.js",
   "scripts": {
