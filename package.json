@@ -31,7 +31,7 @@
   "repository": "textlint-rule/textlint-rule-write-good",
   "dependencies": {
     "textlint-rule-helper": "^2.2.0",
-    "write-good": "^0.11.0"
+    "write-good": "^1.0.8"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css}": [

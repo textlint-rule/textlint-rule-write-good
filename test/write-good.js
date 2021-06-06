@@ -29,6 +29,10 @@ tester.run("write-good", rule, {
                     column: 12
                 }
             ]
+        },
+        {
+            text: "Never write read-only sentences.",
+            errors: [{ index: 17, message: '"only" can weaken meaning' }]
         }
     ]
 });
