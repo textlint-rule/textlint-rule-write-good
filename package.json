@@ -9,9 +9,7 @@
   "scripts": {
     "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build",
-    "test": "npm-run-all lint test:unit",
-    "lint": "eslint --fix src test",
-    "test:unit": "textlint-scripts test",
+    "test": "textlint-scripts test",
     "precommit": "lint-staged",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks"
