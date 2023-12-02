@@ -30,7 +30,7 @@
   "homepage": "https://github.com/textlint-rule/textlint-rule-write-good",
   "repository": "textlint-rule/textlint-rule-write-good",
   "dependencies": {
-    "textlint-rule-helper": "^2.3.0",
+    "textlint-rule-helper": "^2.3.1",
     "write-good": "^1.0.8"
   },
   "lint-staged": {
