@@ -3353,14 +3353,13 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-textlint-rule-helper@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.5.0.tgz#d31ff25a6de66ccb9d1a473a114f5d411f305b90"
-  integrity sha512-QIbFPtyqLy0g5BJn8mryk9iHzGYicNaFIpLFPiEnb4RXxrEGeQ2W2aARQ9yEXLIAqo+OwK4ndWBAWkbgJEPzTQ==
+textlint-rule-helper@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.6.0.tgz#93021bf5c03d0aea61c68f879786baae0e2bf5ad"
+  integrity sha512-xmMYSJKI/LVKyEcda275/PyqR3NbHQwWGO+DOQuE7fOhZenaonV9ocptW7/Qj4vwI52YRyOYzTdqPi3oG5vOXA==
   dependencies:
     "@textlint/ast-node-types" "^15.2.1"
     structured-source "^4.0.0"
-    unist-util-visit "^2.0.3"
 
 textlint-scripts@^12.6.1:
   version "12.6.1"
@@ -3528,15 +3527,6 @@ unist-util-visit-parents@^3.0.0:
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
-
-unist-util-visit@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
-  integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==
-  dependencies:
-    "@types/unist" "^2.0.0"
-    unist-util-is "^4.0.0"
-    unist-util-visit-parents "^3.0.0"
 
 update-browserslist-db@^1.0.10:
   version "1.0.10"
